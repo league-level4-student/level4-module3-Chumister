@@ -23,7 +23,7 @@ public class ExceptionsDemo {
 		try {
 			testMethod1(8);
 		} catch (Exception e) {
-			System.out.println("running");
+
 			e.printStackTrace();
 		}		// 3. Create a new class called CustomException that extends Exception.
 		//    Add a void method called terminate that simply calls System.exit(0);
